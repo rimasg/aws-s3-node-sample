@@ -1,5 +1,5 @@
-var AWS = require('aws-sdk');
-var s3 = new AWS.S3({region: 'eu-central-1'});
+var aws = require('aws-sdk');
+var s3 = new aws.S3({region: 'eu-central-1'});
 
 var bucketName = 'node-sample-qs154awsderq1785';
 var keyName = 'hello.txt';
